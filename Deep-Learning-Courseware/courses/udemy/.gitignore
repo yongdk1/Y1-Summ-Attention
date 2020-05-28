@@ -3,18 +3,16 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+# Images
+*.png
+*.jpg
+
 # C extensions
 *.so
 
-data/
-log/
-models/
-*.zip
-*.jpg
-*.png
-
 # Distribution / packaging
 .Python
+env/
 build/
 develop-eggs/
 dist/
@@ -85,10 +83,11 @@ celerybeat-schedule
 # SageMath parsed files
 *.sage.py
 
-# Environments
+# dotenv
 .env
+
+# virtualenv
 .venv
-env/
 venv/
 ENV/
 
@@ -104,4 +103,3 @@ ENV/
 
 # mypy
 .mypy_cache/
-
